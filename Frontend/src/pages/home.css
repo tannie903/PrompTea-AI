@@ -6,8 +6,18 @@
   flex-wrap: wrap;
   padding: 5rem 3rem;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 2rem auto;
   min-height: 70vh;
+
+  background: rgba(255,255,255,.18);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255,255,255,.35);
+  border-radius: 30px;
+
+  box-shadow:
+      0 15px 40px rgba(12,96,56,.12);
 }
 
 .home-left {
@@ -18,11 +28,12 @@
 
 .home-left h1 {
   font-family: "Monoton", cursive;
-  font-size: 3.2rem;
+  font-size: 4rem;
   font-weight: 400;
   color: #0C6038;
   letter-spacing: 3px;
   margin-bottom: 1.2rem;
+  text-shadow: 0 4px 18px rgba(12, 96, 56, 0.18);
 }
 
 .home-left p {
@@ -75,9 +86,10 @@
   font-size: 5rem;
 }
 
-.hero-img {
+.home-hero {
   width: 100%;
-  max-width: 320px;
+  max-width: 360px;
+  filter: drop-shadow(0 20px 35px rgba(0,0,0,.15));
 }
 
 @media (max-width: 750px) {
